@@ -5,8 +5,8 @@ export default function initCancelContentPlay(player, debug) {
     videojs.log('Using cancelContentPlay to block content playback');
   }
 
-  // Listen to play events to "cancel" them afterward
-  player.on('play', cancelContentPlay);
+  // Listen to playing events to "cancel" them afterward
+  player.on('playing', cancelContentPlay);
 }
 
 /*
