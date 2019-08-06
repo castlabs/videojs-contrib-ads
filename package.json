@@ -1,5 +1,5 @@
 {
-  "name": "videojs-contrib-ads",
+  "name": "@castlabs/videojs-contrib-ads",
   "description": "A framework that provides common functionality needed by video advertisement libraries working with video.js.",
   "main": "dist/videojs.ads.js",
   "module": "dist/videojs-contrib-ads.es.js",
